@@ -17,6 +17,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <content src="index.html" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
      <platform name="windows">
     </platform>
     <platform name="ios">
