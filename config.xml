@@ -16,6 +16,8 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
+    <access origin="cdvfile://*" />
+    <allow-navigation href="cdvfile://*" />
     <content src="index.html" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <!-- <platform name="windows">
