@@ -16,6 +16,7 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="KeyboardShrinksView" value="true" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <access origin="*" />
     <access origin="cdvfile://*" />
     <allow-navigation href="cdvfile://*" />
