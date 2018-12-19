@@ -16,7 +16,6 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="KeyboardShrinksView" value="true" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true" />
     <access origin="*" />
     <access origin="cdvfile://*" />
     <allow-navigation href="cdvfile://*" />
@@ -130,6 +129,8 @@
      </plugin>
 
      <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
+
+     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
 
     <allow-navigation href="*" />
 
