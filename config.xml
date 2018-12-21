@@ -134,4 +134,8 @@
 
     <allow-navigation href="*" />
 
+    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+        <string>Find locations nearby</string>
+    </edit-config>
+
 </widget>
