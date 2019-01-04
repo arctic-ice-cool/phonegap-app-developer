@@ -18,6 +18,9 @@
     <preference name="KeyboardShrinksView" value="true" />
     <access origin="*" />
     <access origin="cdvfile://*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <allow-navigation href="cdvfile://*" />
     <content src="index.html" />
     <preference name="phonegap-version" value="cli-7.1.0" />
@@ -135,7 +138,7 @@
     <allow-navigation href="*" />
 
     <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-        <string>Find locations nearby</string>
+        <string>Location data required to find locations nearby</string>
     </edit-config>
 
 </widget>
