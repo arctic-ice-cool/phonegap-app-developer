@@ -24,6 +24,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "barcodescanner": "^1.0.0",
     "cordova-android": "~6.4.0",
     "cordova-ios": "^4.5.3",
     "cordova-plugin-battery-status": "^1.2.5",
@@ -112,9 +113,7 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-vibration": {},
       "cordova-plugin-x-socialsharing": {},
-      "phonegap-plugin-barcodescanner": {
-        "CAMERA_USAGE_DESCRIPTION": "Camera used for development purposes"
-      },
+      "phonegap-plugin-barcodescanner": {},
       "phonegap-plugin-contentsync": {},
       "phonegap-plugin-mobile-accessibility": {},
       "phonegap-plugin-push": {
@@ -124,7 +123,8 @@
       "cordova-plugin-facebook4": {
         "APP_ID": "375656713001574",
         "APP_NAME": "appcore"
-      }
+      },
+      "barcode-scanner": {}
     }
   }
 }
