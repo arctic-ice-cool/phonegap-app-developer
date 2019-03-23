@@ -121,6 +121,5 @@
     <plugin name="cordova-plugin-facebook4" spec="^4.0.0">
         <variable name="APP_ID" value="375656713001574" />
         <variable name="APP_NAME" value="appcore" />
-        <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.25.0" />
     </plugin>
 </widget>
