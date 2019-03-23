@@ -54,7 +54,7 @@
     "eslint-config-semistandard": "^12.0.1",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^4.0.0",
-    "phonegap-plugin-barcodescanner": "^6.0.8",
+    "phonegap-plugin-barcodescanner": "8.0.1",
     "phonegap-plugin-contentsync": "^1.4.1",
     "phonegap-plugin-mobile-accessibility": "^1.0.5",
     "phonegap-plugin-push": "^2.1.2"
@@ -113,7 +113,6 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-vibration": {},
       "cordova-plugin-x-socialsharing": {},
-      "phonegap-plugin-barcodescanner": {},
       "phonegap-plugin-contentsync": {},
       "phonegap-plugin-mobile-accessibility": {},
       "phonegap-plugin-push": {
@@ -124,7 +123,8 @@
         "APP_ID": "375656713001574",
         "APP_NAME": "appcore"
       },
-      "barcode-scanner": {}
+      "barcode-scanner": {},
+      "phonegap-plugin-barcodescanner": {}
     }
   }
 }
