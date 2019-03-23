@@ -129,8 +129,8 @@
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
 
     <plugin name="cordova-plugin-facebook4" spec="1.7.4">
-         <variable name="APP_ID" value="979730832414708" />
-         <variable name="APP_NAME" value="QGone" />
+         <variable name="APP_ID" value="375656713001574" />
+         <variable name="APP_NAME" value="appcore" />
      </plugin>
 
      <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
