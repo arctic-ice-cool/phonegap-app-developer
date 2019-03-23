@@ -66,7 +66,6 @@
         <resource-file src="google-services.json" target="google-services.json" />
         <framework src="com.facebook.android:facebook-android-sdk:4.25.0" />
     </platform>
-    <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0">
@@ -115,9 +114,13 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
         <string>Location data required to find locations nearby</string>
     </edit-config>
-    <plugin name="cordova-plugin-facebook4" spec="4.2.1">
+    <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.0">
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Camera used for development purposes" />
+    </plugin>
+    <plugin name="cordova-plugin-facebook4" spec="^4.0.0">
         <variable name="APP_ID" value="375656713001574" />
         <variable name="APP_NAME" value="appcore" />
+        <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.25.0" />
     </plugin>
-    <plugin name="cordova-plugin-qrscanner" spec="^2.6.0" />
 </widget>
