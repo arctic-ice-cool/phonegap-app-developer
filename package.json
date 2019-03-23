@@ -124,7 +124,8 @@
         "APP_NAME": "appcore"
       },
       "barcode-scanner": {},
-      "phonegap-plugin-barcodescanner": {}
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-compat": {}
     }
   }
 }
