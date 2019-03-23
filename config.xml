@@ -120,6 +120,5 @@
         <variable name="APP_NAME" value="appcore" />
         <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.25.0" />
     </plugin>
-    <plugin name="cordova-plugin-barcodescanner" spec="^0.7.4" />
 
 </widget>
