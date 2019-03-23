@@ -57,7 +57,6 @@
         <splash src="www/res/screen/ios/Default@2x~ipad~comany.png" />
     </platform>
     <platform name="android">
-        <framework src="com.facebook.android:facebook-android-sdk:4.25.0" />
         <preference name="android-minSdkVersion" value="26" />
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
@@ -117,13 +116,9 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
         <string>Location data required to find locations nearby</string>
     </edit-config>
-    <plugin name="phonegap-plugin-barcodescanner" spec="8.0.1">
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for profile QR codes" />
-        <variable name="ANDROID_SUPPORT_V4_VERSION" value="26.1.0" />
-    </plugin>
     <plugin name="cordova-plugin-facebook4" spec="4.2.1">
         <variable name="APP_ID" value="375656713001574" />
         <variable name="APP_NAME" value="appcore" />
-        <variable name="ANDROID_SDK_VERSION" value="4.25.0" />
     </plugin>
+    <plugin name="cordova-plugin-qrscanner" spec="^2.6.0" />
 </widget>
