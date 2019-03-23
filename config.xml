@@ -67,7 +67,6 @@
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
     <engine name="ios" spec="^4.5.4" />
-    <engine name="android" spec="6.3.0" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
