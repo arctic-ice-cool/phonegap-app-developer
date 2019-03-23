@@ -119,5 +119,5 @@
         <variable name="APP_ID" value="375656713001574" />
         <variable name="APP_NAME" value="appcore" />
     </plugin>
-    <plugin name="phonegap-plugin-barcodescanner" spec="7.0.0" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="7.0.2" />
 </widget>
