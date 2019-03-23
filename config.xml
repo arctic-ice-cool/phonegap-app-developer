@@ -24,8 +24,6 @@
     <allow-navigation href="cdvfile://*" />
     <content src="index.html" />
     <preference name="phonegap-version" value="cli-7.1.0" />
-    <!-- <platform name="windows">
-    </platform>-->
     <platform name="ios">
         <preference name="Orientation" value="all" />
         <preference name="AutoHideSplashScreen" value="false" />
@@ -55,7 +53,7 @@
         <splash src="www/res/screen/ios/Default@3x~iphone~anycom.png" />
         <splash src="www/res/screen/ios/Default@3x~iphone~comany.png" />
         <splash src="www/res/screen/ios/Default@2x~ipad~anyany.png" />
-        <splash src="www/res/screen/ios/Default@2x~ipad~comany.png" /> 
+        <splash src="www/res/screen/ios/Default@2x~ipad~comany.png" />
     </platform>
     <platform name="android">
         <preference name="android-minSdkVersion" value="27" />
@@ -68,15 +66,9 @@
         <resource-file src="google-services.json" target="google-services.json" />
         <framework src="com.facebook.android:facebook-android-sdk:4.25.0" />
     </platform>
-
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.3" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
-    <!--
-    <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
-        <variable name="BLUETOOTH_USAGE_DESCRIPTION" value="Bluetooth development purposes" />
-    </plugin>
-    -->
     <plugin name="cordova-plugin-camera" spec="^3.0.0">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
@@ -100,27 +92,17 @@
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value="Microphone used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
     </plugin>
-    <!-- <plugin name="cordova-plugin-network-information" spec="^1.3.4" /> -->
     <plugin name="cordova-plugin-screen-orientation" spec="^2.0.2" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
     <plugin name="cordova-plugin-vibration" spec="^2.1.6" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.2.1" />
-
     <plugin name="cordova-plugin-network-information" spec="~2.0.1" />
     <plugin name="cordova-plugin-buildinfo" spec="^2.0.2" />
-
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="~5.0.4">
         <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="APINOTNEEDEDFORTHISAPP" />
         <variable name="OKHTTP_VERSION" value="3.12.0" />
     </plugin>
-
-    <!--
-    <plugin name="phonegap-plugin-barcodescanner" spec="^6.0.8">
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
-    </plugin>
-    -->
-
     <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.2">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
     </plugin>
@@ -130,20 +112,14 @@
         <variable name="FCM_VERSION" value="11.0.1" />
     </plugin>
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
-
-    <plugin name="cordova-plugin-facebook4" spec="1.7.4">
-         <variable name="APP_ID" value="375656713001574" />
-         <variable name="APP_NAME" value="appcore" />
-     </plugin>
-
-     <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
-
-     <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
-
+    <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
+    <plugin name="cordova-plugin-stripe" spec="^1.5.3" />
     <allow-navigation href="*" />
-
-    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
         <string>Location data required to find locations nearby</string>
     </edit-config>
-
+    <plugin name="cordova-plugin-facebook4" spec="4.2.1">
+        <variable name="APP_ID" value="375656713001574" />
+        <variable name="APP_NAME" value="appcore" />
+    </plugin>
 </widget>
