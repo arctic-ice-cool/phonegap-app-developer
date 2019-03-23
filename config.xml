@@ -66,6 +66,7 @@
         <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
+    <engine name="android" spec="^7.1.1" />
     <engine name="ios" spec="^4.5.4" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0">
@@ -118,9 +119,11 @@
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Camera used for development purposes" />
     </plugin>
-    <plugin name="cordova-plugin-facebook4" spec="^4.0.0">
+    <plugin name="cordova-plugin-facebook4" spec="4.2.1">
         <variable name="APP_ID" value="375656713001574" />
         <variable name="APP_NAME" value="appcore" />
-        <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.25.0" />
+        <variable name="ANDROID_SDK_VERSION" value="4.25.0" />
+        <variable name="FACEBOOK_HYBRID_APP_EVENTS" value="false" />
+        <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.40.0" />
     </plugin>
 </widget>
