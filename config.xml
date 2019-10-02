@@ -140,4 +140,7 @@
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Camera used for development purposes" />
     </plugin>
     <plugin name="cordova-plugin-multidex" spec="^0.1.4" />
+     <plugin name="cordova-plugin-telerik-imagepicker" spec="https://github.com/Telerik-Verified-Plugins/ImagePicker.git">
+        <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Access media to share on Binkshare" />
+    </plugin>
 </widget>
